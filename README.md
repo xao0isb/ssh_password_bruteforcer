@@ -1,6 +1,6 @@
 # SSH password bruteforcer with proxies
 
-Tries every combination of username and password, also uses random proxy from given list.
+Tries every combination of username and password, uses random proxy from given list and saves checked combinations for future runs.
 
 ```bash
 ./ssh_password_brute_force.sh <host_address> <usernames_filepath> <passwords_filepath> <proxies_filepath> <checked_combos_save_to_dest> <checked_combos_filepath>
