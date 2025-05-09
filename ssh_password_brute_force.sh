@@ -19,8 +19,6 @@ set checked_combos_default_filename "checked_combos.txt"
 set checked_combos_filepath [lindex $argv 5];
 if { $checked_combos_filepath == "" } {
     set checked_combos_filepath "$save_checked_combos_dest/$checked_combos_default_filename"
-} else {
-    set checked_combos_filepath "$save_checked_combos_dest/$checked_combos_filepath"
 }
 
 puts "HOST ADDRESS: $host_address"
