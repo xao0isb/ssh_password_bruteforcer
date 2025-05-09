@@ -1,7 +1,7 @@
 #!/usr/bin/expect
 
 # TODO:
-# Make try on empty login and password first
+# Make try on empty password first
 
 # Common variables
 set CTRL_C "\x03"
@@ -37,8 +37,12 @@ close $passwords_file
 
 
 # In $usernames and $passwords last element is empty string.
-# This is good because we need to check empty strings too
+# For username we going to skip it, for password we going to use it.
 foreach username $usernames {
+    if { $username == "" } {
+        continue
+    }
+
     set prev_proxy ""
     set password_found false
 
