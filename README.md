@@ -11,11 +11,11 @@ If `checked_combos_filepath` is set then `checked_combos_save_to_dest` will be i
 ## Examples
 
 ```bash
-./ssh_password_brute_force.sh 0.0.0.0 ~/Downloads/usernames.txt ~/Downloads/passwords.txt ~/Downloads/proxies.txt /run
+./ssh_password_brute_force.sh 0.0.0.0 ~/Downloads/usernames.txt ~/Downloads/passwords.txt ~/Downloads/proxies.txt ./run
 ```
 
 ```bash
-./ssh_password_brute_force.sh 0.0.0.0 ~/Downloads/usernames.txt ~/Downloads/passwords.txt ~/Downloads/proxies.txt /run ~/Downloads/already_checked_combos.txt
+./ssh_password_brute_force.sh 0.0.0.0 ~/Downloads/usernames.txt ~/Downloads/passwords.txt ~/Downloads/proxies.txt ./run ~/Downloads/already_checked_combos.txt
 ```
 
 ## Files samples
