@@ -37,7 +37,7 @@ close $passwords_file
 
 
 # In $usernames and $passwords last element is empty string.
-# For username we going to skip it, for password we going to use it.
+# For username we are going to skip it, for password we are going to use it.
 foreach username $usernames {
     if { $username == "" } {
         continue
