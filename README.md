@@ -52,9 +52,4 @@ admin:admin
 admin:12345
 admin:54321
 admin:
-:root
-:admin
-:12345
-:54321
-:
 ```
